@@ -2,12 +2,12 @@
  * Skin: Green
  * -----------
  */
-@import "../../../bower_components/bootstrap/less/mixins.less";
-@import "../../../bower_components/bootstrap/less/variables.less";
+@import "../../../../../../Downloads/ecommerce/bower_components/bootstrap/less/mixins.less";
+@import "../../../../../../Downloads/ecommerce/bower_components/bootstrap/less/variables.less";
 @import "../variables.less";
 @import "../mixins.less";
 
-.skin-green {
+.skin-green-light {
   //Navbar
   .main-header {
     .navbar {
@@ -36,7 +36,7 @@
     }
     //Logo
     .logo {
-      .logo-variant(darken(@green, 5%));
+      .logo-variant(@green);
     }
 
     li.user-header {
@@ -50,6 +50,6 @@
   }
 
   //Create the sidebar skin
-  .skin-dark-sidebar(@green);
+  .skin-light-sidebar(@green);
 
 }
